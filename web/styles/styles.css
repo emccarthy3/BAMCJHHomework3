@@ -1,0 +1,103 @@
+/*
+Copyright (c) Betsey McCarthy Mitchell Thompson
+*/
+/* 
+    Created on : Oct 18, 2015, 2:19:59 PM
+    Author     : mthompson31, emccarthy3
+    
+*/
+
+body {
+  border-color: darkblue;
+  border-style: solid;
+  border-width: .188em;
+  margin-left: 35%;
+  margin-right: 35%;
+  text-align: center;    
+}
+
+h1 {
+  color: darkblue;
+  margin-right: 15%;
+  text-align: center;
+}
+
+p {
+  font-size: 1.5em;
+}
+
+footer {
+  border-top: solid darkblue 3px;
+  margin-top: 2%;  
+  padding: .625em;
+}
+
+.inputs {
+  margin-bottom:1%;
+  width:40%;
+}
+
+.labels {  
+  margin-right:2%;
+  margin-top:5%;
+}
+
+.resultLabels {
+  float:left;
+  margin-left:10%;
+}
+
+.results{
+  float:right;
+  margin-right:40%;
+}
+
+.columns{
+    float:left;
+    margin-left:10%;
+}
+.nums{
+  margin-top:15%;
+    margin-right:60%;
+    
+}
+#futureValue{
+  margin-left:13.5%;
+  
+}
+
+#years {
+  margin-left:3.7%;
+}
+
+@media screen and (max-width: 400px) {
+    
+  body {
+    margin: .188em;
+  }
+
+  h1 {
+    margin-left:7%;
+    text-align: left;
+  }
+
+  .inputs {
+    display: block;
+    margin-left: 7%;
+    width:55%;
+  }
+
+  .labels {
+    margin-right:50%;
+  }  
+
+  #button {
+    margin-bottom: 10%;
+    margin-right:70%;
+  }
+
+  #years {
+    margin-right:58%;
+  }
+
+}
